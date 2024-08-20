@@ -3,84 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Data Science Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        header {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: white;
-        }
-        section {
-            margin: 20px 0;
-        }
-        h2 {
-            color: #333;
-        }
-        ul {
-            margin: 10px 0 20px 20px;
-        }
-        footer {
-            text-align: center;
-            margin-top: 50px;
-            color: #777;
-        }
-    </style>
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <header>
-        <h1>My Data Science Portfolio</h1>
-        <p>Welcome to my portfolio! Here are some of the data science projects I've worked on.</p>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">MySite</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <section>
-        <h2>Project 1: Predicting House Prices</h2>
-        <ul>
-            <li>Developed a machine learning model to predict house prices using a dataset of over 20,000 records.</li>
-            <li>Performed feature engineering to improve model accuracy.</li>
-            <li>Used Python and scikit-learn for model development.</li>
-            <li>Visualized the results with Matplotlib and Seaborn.</li>
-        </ul>
-    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Welcome to My Website</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <p>This is the main content area.</p>
+            </div>
+            <div class="col-md-4">
+                <p>This is the sidebar content.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="text-center">Footer information here.</p>
+            </div>
+        </div>
+    </div>
 
-    <section>
-        <h2>Project 2: Sentiment Analysis of Movie Reviews</h2>
-        <ul>
-            <li>Analyzed thousands of movie reviews to determine overall sentiment.</li>
-            <li>Implemented a natural language processing (NLP) pipeline using NLTK and Python.</li>
-            <li>Used logistic regression to classify reviews as positive or negative.</li>
-            <li>Deployed the model using Flask for a simple web-based interface.</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Project 3: Customer Segmentation for Retail Business</h2>
-        <ul>
-            <li>Segmented customers into distinct groups based on purchasing behavior.</li>
-            <li>Applied k-means clustering and hierarchical clustering techniques.</li>
-            <li>Visualized customer segments with Tableau.</li>
-            <li>Provided actionable insights to improve marketing strategies.</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Project 4: Time Series Forecasting of Stock Prices</h2>
-        <ul>
-            <li>Built a time series model to forecast stock prices using historical data.</li>
-            <li>Implemented ARIMA and LSTM models for comparison.</li>
-            <li>Evaluated model performance using RMSE and MAPE metrics.</li>
-            <li>Presented findings in a detailed report with visualizations.</li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 [Your Name] - Data Scientist | <a href="mailto:your.email@example.com">Contact Me</a></p>
-    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
