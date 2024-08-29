@@ -1,0 +1,17 @@
+.card {
+    width: 90%; /* Adjust this value as needed */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Normal link state */
+a {
+    color: #020303; /* Default link color */
+    text-decoration: none; /* Remove underline by default */
+}
+
+/* Hover state */
+a:hover {
+    color: #bf0404d9; /* Change this to your desired hover color */
+    text-decoration: underline; /* Optionally, add underline on hover */
+}
